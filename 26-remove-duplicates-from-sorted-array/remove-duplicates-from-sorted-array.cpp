@@ -12,6 +12,6 @@ public:
                 k = k+1;
             }
         }
-        return k;
+        return k; // O(n)
     }
 };
