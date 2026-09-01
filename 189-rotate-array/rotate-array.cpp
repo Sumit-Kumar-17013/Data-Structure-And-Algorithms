@@ -18,7 +18,8 @@ public:
                 idx =(idx + k) % n;
                 count++;
             }
-            while(idx != i);
+            while(idx != i); 
+            // o(n)
         }
         
     }
