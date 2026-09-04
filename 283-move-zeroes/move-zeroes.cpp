@@ -2,7 +2,7 @@ class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
         int j = 0;
-
+        // O(n)
         for(int i = 0 ; i < nums.size() ; i++)
         {
             if(nums[i] != 0)
