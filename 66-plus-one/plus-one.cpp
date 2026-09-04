@@ -17,4 +17,5 @@ public:
         result[0] = 1;
         return result; 
     }
+    // O(n)
 };
