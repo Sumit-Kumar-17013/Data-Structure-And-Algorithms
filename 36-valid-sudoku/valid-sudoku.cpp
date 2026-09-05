@@ -2,6 +2,7 @@ class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
 
+        //  tc = O((n^2))
         // Rows
         for(int i = 0; i < 9; i++) {
 
