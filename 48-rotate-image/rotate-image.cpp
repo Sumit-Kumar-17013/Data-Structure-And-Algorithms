@@ -3,6 +3,8 @@ public:
     void rotate(vector<vector<int>>& matrix) {
         int n = matrix.size();
 
+        // TC = O(n^2)
+
         for(int i = 0 ; i < n ; i++) // transpose
         {
             for (int j = i+ 1 ; j < n ; j++)
