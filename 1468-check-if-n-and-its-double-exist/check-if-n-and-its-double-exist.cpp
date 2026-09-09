@@ -2,6 +2,7 @@ class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
         unordered_set<int> seen;
+        // tc = O(n)
 
         for(int num : arr)
         {
