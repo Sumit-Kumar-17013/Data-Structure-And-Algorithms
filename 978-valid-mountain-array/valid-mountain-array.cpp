@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool validMountainArray(vector<int>& arr) {
-
+        // TC = O(n)
         int i = 0;
         int n = arr.size();
 
