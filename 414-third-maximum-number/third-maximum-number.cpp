@@ -1,6 +1,7 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
+        // Tc = O(nlogn)
         int n = nums.size();
 
         sort(nums.begin(), nums.end());
