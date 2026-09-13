@@ -1,6 +1,8 @@
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
+        //  TC = O(n)
+
         int n = nums.size();
         int Rightsum = 0;
 
