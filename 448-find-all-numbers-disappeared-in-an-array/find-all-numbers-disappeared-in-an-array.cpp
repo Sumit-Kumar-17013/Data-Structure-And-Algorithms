@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
+        //  TC = O(n)
         int n = nums.size();
          set<int> s;
 
