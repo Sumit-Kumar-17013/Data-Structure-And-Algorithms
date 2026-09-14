@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
+        //  TC = (n^2)
         vector<vector<int>> result;
 
         for(int i = 0 ; i < numRows ; i++)
