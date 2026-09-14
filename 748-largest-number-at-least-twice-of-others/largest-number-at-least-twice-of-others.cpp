@@ -3,7 +3,7 @@ public:
     int dominantIndex(vector<int>& nums) {
 
         int n = nums.size();
-        // TC = O(n)
+        // tc = O(n)
         int idx = -1;
         int max1 = -1;
         int max2 = -1;
