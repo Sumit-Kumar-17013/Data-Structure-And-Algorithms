@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
+        // TC = O(n)
         int n = nums.size();
 
         int left = 0;
