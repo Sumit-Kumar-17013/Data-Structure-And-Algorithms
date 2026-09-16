@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
+        // TC = O(n^2)
         vector<int> row(rowIndex + 1, 1);
 
         for (int i = 1; i < rowIndex; i++) {
