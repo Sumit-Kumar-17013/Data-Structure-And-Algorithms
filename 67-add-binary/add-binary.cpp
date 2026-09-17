@@ -1,6 +1,7 @@
 class Solution {
 public:
     string addBinary(string a, string b) {
+        // Tc = O(max(n, m))
         int i = a.size() -1;
         int j = b.size() -1;
 
