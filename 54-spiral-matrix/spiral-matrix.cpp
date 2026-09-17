@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        // TC = O(n.m)
         vector<int> res;
 
         int n = matrix.size();
