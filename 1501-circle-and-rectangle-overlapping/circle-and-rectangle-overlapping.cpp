@@ -10,7 +10,7 @@ public:
         int dx = closestX - xCenter;
         int dy = closestY - yCenter;
 
-        // TC = O(1)
+        // TC = O (1)
         return dx * dx + dy * dy <= radius * radius;
     }
 };
