@@ -1,7 +1,7 @@
 class Solution {
 public:
     int reverse(int num) {
-        // TC
+        // TC = O(n)
         int rev = 0;
 
         while(num != 0)
