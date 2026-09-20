@@ -1,7 +1,7 @@
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        // 
+        // Tc = O(n)
         int n = s.size();
         int i = 0;
         int j = n-1;
