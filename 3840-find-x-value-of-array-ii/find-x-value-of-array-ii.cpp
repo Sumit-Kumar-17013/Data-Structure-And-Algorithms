@@ -38,7 +38,7 @@
 // };
 
 
-class Solution {
+class Solution {   // tc = O(Q × N)
     public:
     int n,k;
 
