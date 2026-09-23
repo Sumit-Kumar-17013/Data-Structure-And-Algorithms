@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int x) {
+        // Time:  O(n)
         int n = nums.size();
 
         int total = 0;
