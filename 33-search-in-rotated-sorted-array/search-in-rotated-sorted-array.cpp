@@ -1,7 +1,7 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-       
+        // Time:  O(log n)
         int left = 0;
         int right = nums.size() - 1;
 
