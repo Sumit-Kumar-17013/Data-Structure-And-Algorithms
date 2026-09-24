@@ -1,7 +1,7 @@
 class Solution {
 public:
     int smallestIndex(vector<int>& nums) {
-
+        // tc = O(n^2)
         int n = nums.size();
 
         for(int i = 0 ; i < n ; i++)
