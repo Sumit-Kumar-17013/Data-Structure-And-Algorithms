@@ -2,6 +2,7 @@ class Solution {
 public:
     bool isAnagram(string s, string t) {
         vector<int> freq(26 , 0);
+        // Tc = o(n)
 
         for(char c : s)
         {
