@@ -1,6 +1,7 @@
 class Solution {
 public:
     int myAtoi(string s) {
+        // tc = O(n)
 
         int i = 0;
         int n = s.size();
