@@ -1,6 +1,7 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
+        // Tc = O(n * m)
         int n = haystack.size();
         int m = needle.size();
 
