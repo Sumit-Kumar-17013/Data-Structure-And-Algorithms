@@ -1,6 +1,7 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
+        // tc : O(n × m)
         int n = strs.size();
         int minLen = strs[0].size();
 
