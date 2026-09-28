@@ -1,6 +1,7 @@
 class Solution {
 public:
     string reverseWords(string s) {
+        // tc= O(n)
         stringstream ss(s);
         vector<string> words;
         string word;
