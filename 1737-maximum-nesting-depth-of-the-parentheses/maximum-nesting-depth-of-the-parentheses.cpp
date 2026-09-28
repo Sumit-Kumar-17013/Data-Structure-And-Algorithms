@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxDepth(string s) {
+        // tc = O(n)
         int n = s.size();
         int curropen = 0;
         int maxopen = 0;
