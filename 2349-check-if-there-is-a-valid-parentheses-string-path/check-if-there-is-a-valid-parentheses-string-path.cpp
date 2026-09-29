@@ -2,6 +2,7 @@ class Solution {
 public:
     bool hasValidPath(vector<vector<char>>& grid) {
         // tc : O(m × n)
+        
         int m = grid.size();
         int n = grid[0].size();
 
