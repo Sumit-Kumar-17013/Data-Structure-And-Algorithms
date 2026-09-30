@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
+        //  tc  = )(n)
         int n = seq.size();
         vector<int> answer(n);
         int depth = 0; 
