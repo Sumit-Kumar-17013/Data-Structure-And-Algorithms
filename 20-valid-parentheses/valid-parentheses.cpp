@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isValid(string s) {
+        // tc : O(n)
         stack<char> st;
 
         for (char c : s) {
