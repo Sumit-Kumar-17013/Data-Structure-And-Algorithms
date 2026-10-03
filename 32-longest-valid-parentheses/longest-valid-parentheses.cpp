@@ -2,6 +2,7 @@ class Solution {
 public:
     int longestValidParentheses(string s) {
         // tc : o(N)
+        
         stack<int> st;
         st.push(-1);
 
