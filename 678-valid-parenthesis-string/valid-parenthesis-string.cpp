@@ -1,7 +1,9 @@
 class Solution {
 public:
     bool checkValidString(string s) {
+        // tc :  O(n)
         int low = 0;
+
         int high = 0;
 
         for (char c : s) {
