@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-    
+        // tc: O(n)
         string ans;
         int depth = 0;
 
