@@ -2,6 +2,7 @@
 class Solution {
 public:
     int minInsertions(string s) {
+        // tc : O(n)
         int insertions = 0;
         int open = 0;
 
