@@ -2,6 +2,7 @@
 class Solution {
 public:
     long long minSumSquareDiff(vector<int>& nums1, vector<int>& nums2, int k1, int k2) {
+        // tc : O(nlog n)
         long long k = (long long)k1 + k2;
         vector<long long> diff(nums1.size());
 
