@@ -1,6 +1,7 @@
 class Solution {
 public:
     int sumOfSquares(vector<int>& nums) {
+        // tc = O(N)
         int n = nums.size();
         int sum  = 0;
 
