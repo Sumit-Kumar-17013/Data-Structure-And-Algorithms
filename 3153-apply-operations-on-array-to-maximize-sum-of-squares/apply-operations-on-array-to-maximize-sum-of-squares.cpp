@@ -2,7 +2,7 @@
 class Solution {
 public:
     int maxSum(vector<int>& nums, int k) {
-        
+        // tc : O(n)
         const long long MOD = 1e9 + 7;
         vector<int> bits(30, 0);
 
