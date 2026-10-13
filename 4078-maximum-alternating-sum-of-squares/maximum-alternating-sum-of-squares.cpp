@@ -1,6 +1,8 @@
 class Solution {
 public:
     long long maxAlternatingSum(vector<int>& nums) {
+        //  tc : O(nlog n)
+
         long n = nums.size();
         vector<long long> squ(n);
 
