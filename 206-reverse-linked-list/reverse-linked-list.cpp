@@ -11,6 +11,7 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
+        // tc : O(n)
         ListNode* curr = head;
         ListNode* prev = NULL;
 
