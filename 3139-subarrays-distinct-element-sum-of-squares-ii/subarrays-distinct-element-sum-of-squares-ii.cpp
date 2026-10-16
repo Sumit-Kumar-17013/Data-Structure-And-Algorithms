@@ -2,6 +2,7 @@
 class Solution {
 public:
     int sumCounts(vector<int>& nums) {
+        //  tc : O(nlogn)
         const long long MOD = 1e9 + 7;
         int n = nums.size();
 
