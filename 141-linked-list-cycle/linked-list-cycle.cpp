@@ -9,6 +9,7 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
+        // tc : O(n)
         set<ListNode*> s;
         ListNode* curr = head;
 
