@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> targetIndices(vector<int>& nums, int target) {
+        // tc : O(n)
         int n = nums.size();
         vector<int> result;
 
