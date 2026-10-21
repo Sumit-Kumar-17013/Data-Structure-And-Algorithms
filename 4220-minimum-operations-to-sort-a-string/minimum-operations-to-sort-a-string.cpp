@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minOperations(string s) {
+        // tc : O(n)
         int n = s.size();
         if (is_sorted(s.begin(), s.end())) return 0;
         if (n == 2) return -1;
