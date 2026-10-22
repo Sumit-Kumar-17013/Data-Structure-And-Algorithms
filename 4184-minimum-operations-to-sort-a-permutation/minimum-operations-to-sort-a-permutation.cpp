@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
+        // tc : O(n)
         int n = nums.size();
 
         vector<int> rev(nums.rbegin(), nums.rend());
