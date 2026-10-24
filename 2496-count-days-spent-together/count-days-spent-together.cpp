@@ -27,5 +27,6 @@ public:
         int end = min(a2, b2);
 
         return max(0, end - start + 1);
+        // tc : O(1)
     }
 };
