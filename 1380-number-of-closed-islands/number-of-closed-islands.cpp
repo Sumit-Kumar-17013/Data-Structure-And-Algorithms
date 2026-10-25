@@ -4,6 +4,7 @@ public:
     int m, n;
 
     bool dfs(vector<vector<int>>& grid, int r, int c) {
+        // tc : O(M * N )
         if (r < 0 || c < 0 || r >= m || c >= n) {
             return false;
         }
