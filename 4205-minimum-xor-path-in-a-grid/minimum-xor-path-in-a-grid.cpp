@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
+        // TC : O(mnk)
         int m = grid.size();
         int n = grid[0].size();
 
