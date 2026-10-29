@@ -104,7 +104,7 @@ public:
                 ans.push_back((mask & (mask - 1)) == 0);
             }
         }
-
+        // tc : O(nlogn)
         return ans;
     }
 };
